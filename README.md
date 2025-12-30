@@ -21,7 +21,7 @@ The system follows an **edge-centric, event-driven architecture**:
 - Installation parameters (height, threshold, sensitivity) are configured in software to align with physical setup
 
 ### Local Feedback
-- WS2812 RGB LED provides visual state indication
+- WB2812B RGB LED provides visual state indication
 - Piezo buzzer is activated only when a fall is detected
 
 ### Communication & Alerts
@@ -36,9 +36,11 @@ This layered design separates sensing, decision logic, communication, and user f
 
 ## Hardware Components
 
+![Hardware setup: MR60FDA2 mmWave sensor with ESP32C6, LED, and buzzer](images/hardware.jpg)
+
 - MR60FDA2 60 GHz mmWave Fall Detection Module  
 - Seeed Studio XIAO ESP32C6  
-- WS2812 RGB LED  
+- WB2812B RGB LED  
 - Piezo buzzer  
 - BH1750 ambient light sensor (contextual data only)  
 - 5V USB power supply (always-on indoor deployment)
