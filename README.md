@@ -36,7 +36,7 @@ This layered design separates sensing, decision logic, communication, and user f
 
 ## Hardware Components
 
-<img src="images/hardware_setup.jpg" 
+<img src="images/hardware.jpg" 
      alt="Hardware setup: MR60FDA2 mmWave sensor with ESP32C6" 
      width="600"/>
 
