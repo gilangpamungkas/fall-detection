@@ -38,7 +38,7 @@ This layered design separates sensing, decision logic, communication, and user f
 
 <img src="images/hardware.jpg" 
      alt="Hardware setup: MR60FDA2 mmWave sensor with ESP32C6" 
-     width="600"/>
+     width="300"/>
 
 - MR60FDA2 60 GHz mmWave Fall Detection Module  
 - Seeed Studio XIAO ESP32C6  
