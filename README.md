@@ -36,7 +36,9 @@ This layered design separates sensing, decision logic, communication, and user f
 
 ## Hardware Components
 
-![Hardware setup: MR60FDA2 mmWave sensor with ESP32C6, LED, and buzzer](images/hardware.jpg)
+<img src="images/hardware_setup.jpg" 
+     alt="Hardware setup: MR60FDA2 mmWave sensor with ESP32C6" 
+     width="600"/>
 
 - MR60FDA2 60 GHz mmWave Fall Detection Module  
 - Seeed Studio XIAO ESP32C6  
