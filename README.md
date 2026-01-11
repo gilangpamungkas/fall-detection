@@ -46,7 +46,12 @@ The system follows an **edge-centric, event-driven architecture**:
 - NTP time synchronisation for alert timestamps
 - One-time alert logic prevents notification flooding
 
-📷 See `/media/` for architecture diagrams and system visuals.
+<p align="center">
+  <img src="images/high level system architecture.png" alt="Figure 1. high level system architecture" width="800">
+</p>
+
+<p align="center"><em>Figure 1. high level system architecture</em></p>
+
 
 ---
 
@@ -65,10 +70,10 @@ The system follows an **edge-centric, event-driven architecture**:
 
 
 <p align="center">
-  <img src="images/MR60FDA2 sensor kit.png" alt="Figure 1. MR60FDA2 sensor kit" width="800">
+  <img src="images/MR60FDA2 sensor kit.png" alt="Figure 2. MR60FDA2 sensor kit" width="800">
 </p>
 
-<p align="center"><em>Figure 1. MR60FDA2 sensor kit</em></p>
+<p align="center"><em>Figure 2. MR60FDA2 sensor kit</em></p>
 
 ---
 
