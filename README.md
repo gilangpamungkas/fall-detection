@@ -158,12 +158,46 @@ See: *Getting Started with MR60FDA2 mmWave Kit* (Seeed Studio, 2025).
 
 ### ▶️ Setup Order
 
-1. Mount device on ceiling  
-2. Power via USB  
-3. Configure Wi-Fi and MQTT credentials  
-4. Set installation height and detection threshold  
-5. Deploy system and observe LED state  
-6. Test fall detection scenarios  
+1. Mount the device on the ceiling at approximately 2.5 m.
+2. Power the system via a 5 V USB supply.
+3. Configure Wi-Fi credentials in the Arduino sketch.
+4. Configure MQTT broker address and topic settings.
+5. Configure WhatsApp notification parameters (TextMeBot API key and chat ID).
+6. Set installation parameters (mounting height, detection threshold, sensitivity).
+7. Upload the firmware to the ESP32C6.
+8. Deploy the system and observe LED state indicators.
+9. Test fall detection scenarios and verify local and remote alerts.
+
+
+---
+
+### 📲 WhatsApp Alert Configuration
+
+Remote fall alerts are delivered using the **TextMeBot WhatsApp API**, a lightweight HTTP-based service that enables WhatsApp message delivery from embedded devices without requiring a dedicated messaging server.
+
+When a fall event is detected, the ESP32 sends an HTTP GET request to the TextMeBot API endpoint, which forwards the alert message to a configured WhatsApp number.
+
+#### 🔑 API Key and Recipient Configuration
+
+To enable WhatsApp notifications, users must obtain a personal **TextMeBot API key** and associate it with their WhatsApp number following the instructions provided by the service. These credentials are user-specific and are therefore not included in this repository.
+
+The following parameters must be configured directly in the Arduino sketch (`.ino` file):
+
+```cpp
+// --- WhatsApp (TextMeBot) Configuration ---
+// Replace with your own API key and recipient number
+const char* TEXTMEBOT_API_KEY = "YOUR_API_KEY";
+const char* TEXTMEBOT_RECIPIENT = "+441234567890";  // WhatsApp number including country code
+🌐 Message Delivery Mechanism
+When a fall is detected, the firmware constructs and sends an HTTP request of the following form:
+
+arduino
+Copy code
+https://api.textmebot.com/web_send.php?apikey=YOUR_API_KEY&recipient=PHONE_NUMBER&text=MESSAGE
+The request is sent using the ESP32 HTTP client library. Message content is URL-encoded to ensure safe transmission. A timestamp obtained via NTP synchronisation is appended to the message to provide temporal context.
+
+🔒 Rate Limiting and Safety
+To prevent alert flooding, the system implements a one-time notification mechanism, ensuring that only a single WhatsApp alert is sent per detected fall event until the system state resets. This behaviour improves usability and reflects realistic deployment requirements for indoor safety monitoring systems.
 
 ---
 
