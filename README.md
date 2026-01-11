@@ -248,6 +248,7 @@ The project intentionally focuses on **system-level design**, prioritising:
 
 ## 📂 Repository Structure
 
+```
 fall-detection/
 ├── enclosure/ # Enclosure design files (Fusion 360 & STL)
 ├── images/ # Photos and diagrams used in README
@@ -255,7 +256,7 @@ fall-detection/
 ├── arduino_secrets_template.h # Template for API keys and sensitive config
 ├── fall_detection_v2.ino # Main Arduino firmware sketch
 
-
+```
 ---
 
 ## 📄 Coursework Context
