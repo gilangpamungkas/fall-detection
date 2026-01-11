@@ -31,6 +31,12 @@ Unlike vision-based approaches, the system enables **continuous, non-contact mon
 
 The system follows an **edge-centric, event-driven architecture**:
 
+<p align="center">
+  <img src="images/high level system architecture.png" alt="Figure 1. high level system architecture" width="800">
+</p>
+
+<p align="center"><em>Figure 1. high level system architecture</em></p>
+
 ### 1️⃣ Sensing & Classification (Edge)
 - 60 GHz mmWave radar performs embedded fall detection
 - Abstracted states: `no presence`, `presence`, `fall`
@@ -46,11 +52,6 @@ The system follows an **edge-centric, event-driven architecture**:
 - NTP time synchronisation for alert timestamps
 - One-time alert logic prevents notification flooding
 
-<p align="center">
-  <img src="images/high level system architecture.png" alt="Figure 1. high level system architecture" width="800">
-</p>
-
-<p align="center"><em>Figure 1. high level system architecture</em></p>
 
 
 ---
@@ -75,6 +76,12 @@ The system follows an **edge-centric, event-driven architecture**:
 
 <p align="center"><em>Figure 2. MR60FDA2 sensor kit</em></p>
 
+
+<p align="center">
+  <img src="images/Output device and physical enclosure.png" alt="Figure 3. Physical implementation of the prototype: (a) Fusion 360 enclosure design, (b) 3D-printed enclosure with device placement, (c) Grove buzzer for audible alerts" width="800">
+</p>
+
+<p align="center"><em>Figure 3. Physical implementation of the prototype: (a) Fusion 360 enclosure design, (b) 3D-printed enclosure with device placement, (c) Grove buzzer for audible alerts</em></p>
 ---
 
 ## 🧱 Physical Implementation
