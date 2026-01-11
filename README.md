@@ -104,7 +104,7 @@ The system follows an **edge-centric, event-driven architecture**:
 - HTTPClient (WhatsApp API)  
 - NTP time synchronisation  
 
-Core logic is implemented in a **single Arduino sketch** for clarity and reproducibility.
+Core logic is implemented in a **single Arduino sketch** (/fall_detection_v2.ino) for clarity and reproducibility.
 
 ---
 
@@ -118,7 +118,12 @@ External wiring is limited to:
 - Grove Buzzer  
 - Power supply (USB)
 
-📷 Wiring diagram available in `/media/wiring_diagram.png`
+<p align="center">
+  <img src="images/circuit_image.png" alt="Figure 4. Wiring Diagram" width="800">
+</p>
+
+<p align="center"><em>Figure 4. Wiring Diagram</em></p>
+
 
 ---
 
