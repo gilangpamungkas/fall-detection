@@ -198,7 +198,7 @@ The request is sent using the ESP32 HTTP client library. Message content is URL-
 
 🔒 Rate Limiting and Safety
 To prevent alert flooding, the system implements a one-time notification mechanism, ensuring that only a single WhatsApp alert is sent per detected fall event until the system state resets. This behaviour improves usability and reflects realistic deployment requirements for indoor safety monitoring systems.
-
+```
 ---
 
 ## 🧪 Evaluation Summary
