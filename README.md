@@ -255,6 +255,7 @@ fall-detection/
 ├── README.md # Main project documentation
 ├── arduino_secrets_template.h # Template for API keys and sensitive config
 ├── fall_detection_v2.ino # Main Arduino firmware sketch
+├── LICENSE.txt # MIT License
 
 ```
 ---
