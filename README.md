@@ -76,12 +76,6 @@ The system follows an **edge-centric, event-driven architecture**:
 
 <p align="center"><em>Figure 2. MR60FDA2 sensor kit</em></p>
 
-
-<p align="center">
-  <img src="images/Output device and physical enclosure.png" alt="Figure 3. Physical implementation of the prototype: (a) Fusion 360 enclosure design, (b) 3D-printed enclosure with device placement, (c) Grove buzzer for audible alerts" width="800">
-</p>
-
-<p align="center"><em>Figure 3. Physical implementation of the prototype: (a) Fusion 360 enclosure design, (b) 3D-printed enclosure with device placement, (c) Grove buzzer for audible alerts</em></p>
 ---
 
 ## 🧱 Physical Implementation
@@ -91,7 +85,13 @@ The system follows an **edge-centric, event-driven architecture**:
 - **(b)** 3D-printed enclosure with device placement  
 - **(c)** Grove buzzer for audible alerts  
 
-📂 CAD files and enclosure images are available in `/enclosure/`.
+<p align="center">
+  <img src="images/Output device and physical enclosure.png" alt="Figure 3. Physical implementation of the prototype: (a) Fusion 360 enclosure design, (b) 3D-printed enclosure with device placement, (c) Grove buzzer for audible alerts" width="800">
+</p>
+
+<p align="center"><em>Figure 3. Physical implementation of the prototype: (a) Fusion 360 enclosure design, (b) 3D-printed enclosure with device placement, (c) Grove buzzer for audible alerts</em></p>
+
+📂 Fusion 360 files of enclosure are available in `/enclosure/`.
 
 ---
 
