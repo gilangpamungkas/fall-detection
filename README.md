@@ -205,4 +205,10 @@ fall-detection/
 
 ## 📚 References
 
-See the reference list in the accompanying coursework report.
+Huh, H., Jeong, I., Lee, A., Lee, S. and Shin, Y.-S. (2025). Leveraging falling acceleration and body part clustering for physics-based human fall detection with millimeter wave radar. Engineering Applications of Artificial Intelligence, 159, 111500.
+Seeed Studio (2025). Getting Started with MR60FDA2 mmWave Kit. Available at: https://wiki.seeedstudio.com/getting_started_with_mr60fda2_mmwave_kit (Accessed: 30 December 2025).
+Shi, W., Cao, J., Zhang, Q., Li, Y. and Xu, L. (2016). Edge computing: Vision and challenges. IEEE Internet of Things Journal, 3(5), pp. 637–646.
+Wang, Z., Yan, G., Yang, X., Zhao, X., Li, X. and Chai, M. (2023). Research on the fall detection method based on millimeter-wave radar. In: Proceedings of the 5th International Conference on Intelligent Control, Measurement and Signal Processing (ICMSP 2023), pp. 139–142.
+World Health Organization (2023). Ageing and health. Available at:  https://www.who.int/news-room/fact-sheets/detail/ageing-and-health (Accessed: 24 December 2025).
+World Health Organization (2007). WHO global report on falls prevention in older age. Geneva: World Health Organization.
+
