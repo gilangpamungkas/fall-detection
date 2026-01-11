@@ -216,7 +216,8 @@ Testing was conducted in a **room-scale indoor environment** under three scenari
 - Sensitivity to threshold configuration  
 - Limited discrimination between falls and slow postural transitions  
 
-🚀 See the project come to life! Watch the demo on Youtube here: [![Demo Video](images/performance testing.png)](https://www.youtube.com/shorts/zDeqPK8EPvs)
+🚀 See the project come to life! Watch the demo on Youtube here: [![Demo Video](images/performance_testing.png)](https://www.youtube.com/shorts/zDeqPK8EPvs)
+
 
 ---
 
