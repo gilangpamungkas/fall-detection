@@ -140,12 +140,19 @@ External wiring is limited to:
 
 ### ⚙️ Installation Parameters
 
-| Parameter | Typical Value |
-|---------|---------------|
-| Mounting height | ~2.5 m |
-| Detection threshold | Configurable |
-| Sensitivity | Medium |
-| Alert mode | One-time per fall |
+The following parameters are configured based on the official MR60FDA2 mmWave sensor guidelines and directly influence fall detection behaviour:
+
+| Parameter | Typical Value | Description |
+|---------|---------------|-------------|
+| Mounting height | ~2.5 m | Recommended ceiling-mounted height for reliable top-down fall detection coverage |
+| Detection threshold | Configurable | Vertical displacement threshold used by the embedded fall detection firmware |
+| Sensitivity | Medium | Controls radar responsiveness to motion intensity |
+| Alert mode | One-time per fall | Prevents repeated notifications from a single detected fall event |
+
+These parameters were tuned to balance detection reliability and false-positive reduction in a residential indoor environment.  
+See: *Getting Started with MR60FDA2 mmWave Kit* (Seeed Studio, 2025).
+
+
 
 ---
 
@@ -229,10 +236,14 @@ fall-detection/
 
 ## 📚 References
 
-Huh, H., Jeong, I., Lee, A., Lee, S. and Shin, Y.-S. (2025). Leveraging falling acceleration and body part clustering for physics-based human fall detection with millimeter wave radar. Engineering Applications of Artificial Intelligence, 159, 111500.
-Seeed Studio (2025). Getting Started with MR60FDA2 mmWave Kit. Available at: https://wiki.seeedstudio.com/getting_started_with_mr60fda2_mmwave_kit (Accessed: 30 December 2025).
-Shi, W., Cao, J., Zhang, Q., Li, Y. and Xu, L. (2016). Edge computing: Vision and challenges. IEEE Internet of Things Journal, 3(5), pp. 637–646.
-Wang, Z., Yan, G., Yang, X., Zhao, X., Li, X. and Chai, M. (2023). Research on the fall detection method based on millimeter-wave radar. In: Proceedings of the 5th International Conference on Intelligent Control, Measurement and Signal Processing (ICMSP 2023), pp. 139–142.
-World Health Organization (2023). Ageing and health. Available at:  https://www.who.int/news-room/fact-sheets/detail/ageing-and-health (Accessed: 24 December 2025).
-World Health Organization (2007). WHO global report on falls prevention in older age. Geneva: World Health Organization.
+Huh, H., Jeong, I., Lee, A., Lee, S. and Shin, Y.-S. (2025). Leveraging falling acceleration and body part clustering for physics-based human fall detection with millimeter wave radar. *Engineering Applications of Artificial Intelligence*, 159, 111500.
 
+Seeed Studio (2025). *Getting Started with MR60FDA2 mmWave Kit*. Available at: https://wiki.seeedstudio.com/getting_started_with_mr60fda2_mmwave_kit (Accessed: 30 December 2025).
+
+Shi, W., Cao, J., Zhang, Q., Li, Y. and Xu, L. (2016). Edge computing: Vision and challenges. *IEEE Internet of Things Journal*, 3(5), pp. 637–646.
+
+Wang, Z., Yan, G., Yang, X., Zhao, X., Li, X. and Chai, M. (2023). Research on the fall detection method based on millimeter-wave radar. In: *Proceedings of the 5th International Conference on Intelligent Control, Measurement and Signal Processing (ICMSP 2023)*, pp. 139–142.
+
+World Health Organization (2007). *WHO Global Report on Falls Prevention in Older Age*. Geneva: World Health Organization.
+
+World Health Organization (2023). *Ageing and Health*. Available at: https://www.who.int/news-room/fact-sheets/detail/ageing-and-health (Accessed: 24 December 2025).
