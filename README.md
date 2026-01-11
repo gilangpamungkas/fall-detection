@@ -63,6 +63,13 @@ The system follows an **edge-centric, event-driven architecture**:
 
 **Mounting:** Ceiling-mounted at ~2.5 m in a residential room.
 
+
+<p align="center">
+  <img src="images/MR60FDA2 sensor kit.png" alt="Figure 1. MR60FDA2 sensor kit" width="800">
+</p>
+
+<p align="center"><em>Figure 1. MR60FDA2 sensor kit</em></p>
+
 ---
 
 ## 🧱 Physical Implementation
